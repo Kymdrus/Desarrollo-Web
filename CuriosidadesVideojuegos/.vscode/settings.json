@@ -1,0 +1,6 @@
+{
+  "tailwindCSS.includeLanguages": {
+    "css": "css"
+  },
+  "tailwindCSS.validate": true
+}

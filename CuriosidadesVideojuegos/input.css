@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@theme{
+    --color-red-custom: #ff0000;
+    /*breakpoints*/
+    --breakpoint-xs: 350px;
+}
+.personajes {
+    @apply p-2  flex items-center justify-center hover:scale-105 transition;
+}
