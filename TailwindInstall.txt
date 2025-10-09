@@ -1,0 +1,2 @@
+pnpm add tailwindcss @tailwindcss/cli
+pnpx @tailwind/cli -i ./input.css -o ./assets/output.css
