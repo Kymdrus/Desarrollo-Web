@@ -12,27 +12,30 @@
      <a
       class=" ojos relative  items-center mt-" 
       href="./Pruebas/Milkyray.html" target="_blank" rel="noopener nonrefferrer">
-      <img src="./assets/ojos.jpg" class="w-200 h-210 object-cover top-0 mx-auto  left-0">
-      </a>
+      <div class="mask-radial-at-center mask--from-50% mask-radial-to-90%  ">
+  
+      <img src="./assets/ojos.jpg" class="w-200 h-210 object-cover top-0 mx-auto  left-0 z-10 " >
+      </div>
+      </div>
+    </a>
+      <div id="fondo" class="absolute inset-0 -z-10"></div>
+
      <script>
-      
+      const fondo = document.getElementById('fondo');
       const body=document.body;
-      /*
-      for(let i=0;i<35;i++){
+      for(let i=0;i<100;i++){
         const div= document.createElement('div');
-        div.textContent='Te veo';
+
+        div.textContent='Ĩ̵̡̢̢̘͔̝̳͕̜͇̲͈̼͗̿̈́͑̂̍̍̔̔̈́̕͝͝ͅ ̶̧̥̤̥̭̖͗̾͑͋̽̅̔̌̓̎̕s̶͉̱͙̲͈̼̭̖̖̀͊͗͗̎́͗̎̀̈̍̆͠͝͠ë̴͔̗̖̞̳̹̩̟̥͒̀͂̊e̶̢͚̼̹̣̅ ̵̺̺̩͖̗̣̃́͌̂͂̓̎͗̓͠͝͠y̸̟͛ő̶̦̘̠̩̣̫̰̄͒͌̀͒̆͒̀̂̉̌̉̚ȗ̴̗̪̊͛̃̈́̀̊̈̒͋̈́͠';
         div.className='text-red-600 mt-14 text-xl absolute left-0 m';
-        div.style.top = `${i * 20}px`; 
-        div.style.marginTop = '2.5px';
-        body.appendChild(div);
-        const rightDiv = document.createElement('div');
-        rightDiv.textContent = 'Te veo';
-        rightDiv.className = 'absolute text-red-600 text-sm rotate-90';
-        rightDiv.style.right = `${-i * 15}px`;
-        rightDiv.style.top = `${i * 10}px`;
-        container.appendChild(rightDiv);
+        div.style.top = Math.random() * 100 + 'vh';
+        div.style.left =30 + Math.random() * 70 + 'vw';
+      
+        fondo.appendChild(div);
+        
+      
       }
-      */
+      
      </script>
      
 
@@ -41,7 +44,7 @@
       href="./Pruebas/Milkyray.html" target="_blank" rel="noopener nonrefferrer">
       <div class=" flex  mt-110 ml-72 object-cover mask-radial-at-center 
       mask-radial-from-50% mask-radial-to-70% ">
-      <img src="./assets/guy-god.jpg" class="w-100 h-100 ">
+      <img src="./assets/guy-god.jpg" class="w-100 h-100 z-10 ">
       </div>
      </a>
  
