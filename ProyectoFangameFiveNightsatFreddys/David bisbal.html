@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime + Tailwind</title>
+  <link rel="stylesheet" href="./assets/output.css">
+  <script src=" https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="min-h-screen bg-[url('./assets/david-bisbal-ave-maria-1579861392.jpg')] bg-cover bg-center flex items-center justify-center">
+    
+
+    <div class="">
+    
+ 
+      </h1>
+    </div>
+<div
+  class="min-h-screen bg-cover bg-center relative"
+  style="background-image: url('/assets/doordeverda.jpeg')"
+>
+  <!-- Zona clickeable -->
+ 
+
+<audio id="scarySong" src="./assets/AudioCutter_David Bisbal - Buleria.mp3" loop type="audio/mp4"></audio>
+
+<script>
+  // Función para reproducir la canción al hacer clic en cualquier parte de la página
+  document.addEventListener('click', function() {
+    const audio = document.getElementById('scarySong');
+    audio.play().catch(e => console.log('Autoplay blocked:', e));
+  });
+</script>
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script>
+</script>
+</body>
+</html>
